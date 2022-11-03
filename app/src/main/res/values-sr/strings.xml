@@ -17,7 +17,7 @@
     <string name="info">Informacije</string>
     <string name="homeLocation">Da li je ovo Vaša kućna lokacija?</string>
     <string name="rulebookTitle">Epidemiološke mere</string>
-    <string name="rulebookText">Izbegavajte dodirivanje lica, usta, nosa i očiju.\n\nKoristite maske koje prekrivaju nos i usta kada boravite u zatvorenim prostorijama.\n\nČesto provetravajte prostorije u kojima boravite.\n\nČesto perite ruke sapunom i vodom ili koristite sredstvo za dezinfekciju na bazi 70% alkohola.</string>
+    <string name="rulebookText">Izbegavajte dodirivanje lica, usta, nosa i očiju.\n\nKoristite maske koje prekrivaju nos i usta kada boravite u zatvorenim prostorijama.\n\nČesto provetravajte prostorije u kojima boravite.\n\nČesto perite ruke sapunom i vodom ili koristite sredstvo za dezinfekciju na bazi 70\% alkohola.</string>
     <string name="setAppLanguage">Izaberite jezik aplikacije</string>
     <string name="toggleNotifications">Podesite obaveštenja</string>
     <string name="trackLocation">Prati lokaciju uređaja</string>
@@ -31,6 +31,10 @@
     <string name="help">Pomoć</string>
     <string name="addMarkerHelp">Dodajte kućnu/česte lokacije.</string>
     <string name="currentLocationHelp">Zumirajte na Vašu trenutnu lokaciju.</string>
-    <string name="generalHelp">Izbrišite lokaciju tako što duže držite naziv obeleživača lokacije.\n\nMožete da palite i gasite praćenje lokacije i pojedina obaveštenja u podešavanjima.</string>
+    <string name="generalHelp">Izbrišite lokaciju tako što duže držite naziv obeleživača lokacije.\n\nMožete da uključite i isključite praćenje lokacije i pojedina obaveštenja u podešavanjima.</string>
     <string name="renameLocationToast">Unesite jedinstveno ime lokacije.</string>
+    <string name="locationUsage">Praćenje lokacije</string>
+    <string name="locationUsageText">Pandemic Buddy prikuplja podatke o lokaciji kako bi omogućio praćenje lokacije kako bi korisnik dobijao odgovarajuća obaveštenja čak i kada je aplikacija ugašena ili se ne koristi.\n\nOvo podešavanje se može isključiti isključivanjem opcije "Prati lokaciju uređaja".\n\nTrenutna lokacija uređaja se poredi sa lokacijama koje je korisnik ručno uneo i aplikacija Vam šalje notifikacije u zavisnosti od toga kojoj lokaciji je uređaj najbliži.\n\nNikakvi podaci se ne šalju programerima ili trećem licu.</string>
+    <string name="accept">Prihvati</string>
+    <string name="decline">Odbij</string>
 </resources>

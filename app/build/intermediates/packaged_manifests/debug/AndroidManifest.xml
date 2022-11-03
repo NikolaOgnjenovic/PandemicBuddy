@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.mtsapp"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.app.pandemicbuddy"
+    android:versionCode="17"
+    android:versionName="1.17" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -20,6 +20,12 @@
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
@@ -39,11 +45,13 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/maps_api_key" />
 
-        <activity android:name="com.app.mtsapp.Settings" />
+        <activity android:name="com.app.pandemicbuddy.Settings" />
         <activity
-            android:name="com.app.mtsapp.PlacesActivity"
+            android:name="com.app.pandemicbuddy.PlacesActivity"
             android:label="@string/title_activity_places" />
-        <activity android:name="com.app.mtsapp.MainActivity" >
+        <activity
+            android:name="com.app.pandemicbuddy.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,13 +60,13 @@
         </activity>
 
         <receiver
-            android:name="com.app.mtsapp.NotificationBroadcast"
+            android:name="com.app.pandemicbuddy.NotificationBroadcast"
             android:enabled="true"
             android:exported="true" >
         </receiver>
 
         <service
-            android:name="com.app.mtsapp.location.service.Tracker"
+            android:name="com.app.pandemicbuddy.location.service.Tracker"
             android:enabled="true"
             android:exported="false"
             android:foregroundServiceType="location" />
@@ -79,11 +87,19 @@
         </service>
 
         <provider
-            android:name="androidx.work.impl.WorkManagerInitializer"
-            android:authorities="com.app.mtsapp.workmanager-init"
-            android:directBootAware="false"
-            android:exported="false"
-            android:multiprocess="true" />
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.app.pandemicbuddy.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
 
         <service
             android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"

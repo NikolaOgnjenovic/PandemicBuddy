@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\Nikola\\programiranje\\Android_Studio\\mtsApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "com.app.pandemicbuddy.app-mergeDebugResources-28:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mrmi\\.gradle\\caches\\transforms-2\\files-2.1\\de764edda33b17fb9d06a14a4e53a0f5\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "source": "/home/mrmi/.gradle/caches/transforms-3/e6ac26bc31b0525876c1ee0daa4b42b9/transformed/appcompat-1.5.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

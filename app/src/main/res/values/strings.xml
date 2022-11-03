@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Coro-No</string>
+    <string name="app_name" translatable="false">Pandemic buddy</string>
     <string name="title_activity_places" translatable="false">Map</string>
     <string name="notifyUser">Notify user</string>
     <string name="dailyTip">Daily tip</string>
@@ -22,7 +22,7 @@
     <string name="info">Info</string>
     <string name="homeLocation">Is this your home location?</string>
     <string name="rulebookTitle">Epidemiological measures</string>
-    <string name="rulebookText">Avoid touching your face, mouth, nose and eyes.\n\nUse masks which cover your nose and mouth while staying in closed spaces.\n\nVentilate rooms you stay in.\n\nWash your hands with soap and water or use a 70% alcohol based disinfectanat.</string>
+    <string name="rulebookText">Avoid touching your face, mouth, nose and eyes.\n\nUse masks which cover your nose and mouth while staying in closed spaces.\n\nVentilate rooms you stay in.\n\nWash your hands with soap and water or use a 70\% alcohol based disinfectanat.</string>
     <string name="setAppLanguage">Change the app\'s language</string>
     <string name="toggleNotifications">Toggle notifications</string>
     <string name="trackLocation">Track the device\'s location</string>
@@ -38,4 +38,8 @@
     <string name="currentLocationHelp">Zoom in on your current location.</string>
     <string name="generalHelp">Delete a location by holding the name of a location marker.\n\nYou can toggle location tracking and particular notifications in the settings.</string>
     <string name="renameLocationToast">Input a unique location name</string>
+    <string name="locationUsage">Location usage</string>
+    <string name="locationUsageText">Pandemic Buddy collects location data to enable location tracking so that the user can receive adequate notifications even when the app is closed or not in use.\n\nThis setting can be toggled off in by toggling the "Track the device\'s location" off.\n\nThe current location of the device is compared to locations the user has manually saved and the app sends you notifications depending on what location the device is closest to.\n\nNo data is being sent to the developers or any third party.</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
 </resources>
