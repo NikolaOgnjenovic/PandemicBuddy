@@ -1,11 +1,6 @@
 package com.app.pandemicbuddy;
 
-import android.Manifest;
-import android.app.Activity;
 import android.app.Dialog;
-import android.content.Intent;
-import android.content.IntentSender;
-import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.location.Location;
@@ -17,22 +12,12 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
 import com.app.pandemicbuddy.location.LocationFinder;
 import com.app.pandemicbuddy.location.LocationSystem;
 import com.app.pandemicbuddy.location.SavedLocation;
-import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.common.api.ResolvableApiException;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.location.LocationSettingsRequest;
-import com.google.android.gms.location.LocationSettingsResponse;
-import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -41,16 +26,10 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.tasks.Task;
 
 import java.util.List;
 
 public class PlacesActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleMap.OnInfoWindowLongClickListener {
-
-    private final int locationRequestCode = 100; //Код за захтевање дозволе коришћења локације уређаја
-    private final String[] locationRequests = new String[]{"Manifest.permission.ACCESS_FINE_LOCATION", "Manifest.permission.ACCESS_COARSE_LOCATION"};
-    private final int gpsRequestCode = 200; //Код за паљење GPS локације уређаја
-
     private GoogleMap googleMap;
 
     private Location currentLocation; //Тренутна локација уређаја
@@ -58,9 +37,7 @@ public class PlacesActivity extends AppCompatActivity implements OnMapReadyCallb
 
     //Toast упозорења
     private String noLocationNameToast;
-    private String deniedLocationPermsToast;
     private String retryCurrentLocationToast;
-    private String gpsToast;
     private String renameLocationToast;
 
     private List<SavedLocation> savedLocations;
@@ -75,41 +52,37 @@ public class PlacesActivity extends AppCompatActivity implements OnMapReadyCallb
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places);
 
+        //Учитај сачуване локације и референцирај листу сачуваних локација
+        locationSystem = new LocationSystem(this);
+
+        locationFinder = new LocationFinder(this);
+        locationFinder.run();
+
         noLocationNameToast = this.getResources().getString(R.string.noLocationNameToast);
-        deniedLocationPermsToast = this.getResources().getString(R.string.deniedLocationPermissionsToast);
         retryCurrentLocationToast = this.getResources().getString(R.string.retryCurrentLocationToast);
-        gpsToast = this.getResources().getString(R.string.gpsToast);
         renameLocationToast = this.getResources().getString(R.string.renameLocationToast);
 
-        //Ако апликација има дозволе потребне за узимање локације
-        if (hasLocationPermission()) {
-
-            //Узми supportMapFragment и обавести програм кад је мапа спремна
-            SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-            if (supportMapFragment != null) {
-                supportMapFragment.getMapAsync(this);
-            }
-
-            //Учитај сачуване локације и референцирај листу сачуваних локација
-            locationSystem = new LocationSystem(this);
-
-            locationFinder = new LocationFinder(this);
-            locationFinder.run();
-
-            ImageButton addMarkerButton = findViewById(R.id.addMarker);
-            addMarkerButton.setOnClickListener(v -> {
-                requestGoogleLocation(true); //Упали GPS локацију на уређају и ако је могуће маркира тренутну локацију на мапи
-            });
-
-            ImageButton helpButton = findViewById(R.id.helpButton);
-            helpButton.setOnClickListener(v -> {
-                InfoPopup infoPopup = new InfoPopup(PlacesActivity.this);
-                infoPopup.showHelpDialog();
-            });
-        } else {
-            //Ако нема, затражи их
-            requestLocationPermissions();
+        //Узми supportMapFragment и обавести програм кад је мапа спремна
+        SupportMapFragment supportMapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        if (supportMapFragment != null) {
+            supportMapFragment.getMapAsync(this);
         }
+
+        ImageButton addMarkerButton = findViewById(R.id.addMarker);
+        addMarkerButton.setOnClickListener(v -> {
+            getCurrentLocation();
+            if (currentLocation != null) {
+                showAddLocationPopup();
+            } else {
+                Toast.makeText(PlacesActivity.this, retryCurrentLocationToast, Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ImageButton helpButton = findViewById(R.id.helpButton);
+        helpButton.setOnClickListener(v -> {
+            InfoPopup infoPopup = new InfoPopup(PlacesActivity.this);
+            infoPopup.showHelpDialog();
+        });
     }
 
     @Override
@@ -136,8 +109,14 @@ public class PlacesActivity extends AppCompatActivity implements OnMapReadyCallb
         }
 
         ImageButton currentLocationButton = findViewById(R.id.currentLocationButton);
-        currentLocationButton.setOnClickListener(v -> requestGoogleLocation(false));
-
+        currentLocationButton.setOnClickListener(v -> {
+            getCurrentLocation();
+            if (currentLocation != null) {
+                getAndZoomCurrentLocation();
+            } else {
+                Toast.makeText(PlacesActivity.this, retryCurrentLocationToast, Toast.LENGTH_SHORT).show();
+            }
+        });
 
         //Зове се када се неки маркер помера
         googleMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
@@ -187,97 +166,6 @@ public class PlacesActivity extends AppCompatActivity implements OnMapReadyCallb
         //Прикажи упозорење
         InfoPopup infoPopup = new InfoPopup(PlacesActivity.this);
         infoPopup.showBackButtonDialog(false);
-    }
-
-    //=================== ПРОВЕРАВАЊЕ И ДОБИЈАЊЕ ДОЗВОЛА ЗА ЛОКАЦИЈУ И ПАЉЕЊЕ ЛОКАЦИЈЕ НА УРЕЂАЈУ =============================
-
-    //Проверава да ли апликација има дозволе потребне за добијање локације
-    private boolean hasLocationPermission() {
-        return ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == (PackageManager.PERMISSION_GRANTED)
-                && ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == (PackageManager.PERMISSION_GRANTED);
-    }
-
-    //Захтева дозволе потребне за добијање локације
-    private void requestLocationPermissions() {
-        ActivityCompat.requestPermissions(this, locationRequests, locationRequestCode);
-    }
-
-    //Обрађује захтеве за дозволе
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        //Ако су у питању локације
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == locationRequestCode) {
-            if (grantResults.length > 0) {
-                //Ако су дозвољене
-                if (grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                    //Обавести корисника да је одбио захтев за дозволе локације и врати га на главни екран (MainActivity)
-                    Toast.makeText(this, deniedLocationPermsToast, Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(this, MainActivity.class));
-                }
-            }
-        }
-    }
-
-    /*Проверава да ли је GPS локација уређаја упаљења. Ако није затражи од корисника да дозволи апликацији да користи GPS локацију уређаја а ако јесте:
-    1) ако је showLocationPopup true онда приказује мени за додавање локације, а ако није зумира на тренутну локацију (функција дугмета за добијање тренутне локације)*/
-    private void requestGoogleLocation(final boolean showLocationPopup) {
-        //Направи захтев за проверу и добијање GPS локације уређаја
-        LocationRequest locationRequest = LocationRequest.create();
-        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY).setInterval(5000).setFastestInterval(2000);
-        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder().addLocationRequest(locationRequest);
-        builder.setAlwaysShow(true);
-
-        Task<LocationSettingsResponse> result = LocationServices.getSettingsClient(getApplicationContext()).checkLocationSettings(builder.build());
-        result.addOnCompleteListener(task -> {
-            try {
-                LocationSettingsResponse response = task.getResult(ApiException.class); //Response се прави да би се проверило да ли је GPS локација већ упаљења
-                getCurrentLocation();
-
-                //Ако је GPS локација већ упаљења неће се throw-ати било какав exception
-                System.out.println("[MRMI]: GPS локација је већ упаљена, додајем маркер");
-                if (currentLocation != null) {
-                    if (showLocationPopup) {
-                        showAddLocationPopup();
-                    } else {
-                        getAndZoomCurrentLocation();
-                    }
-                } else {
-                    Toast.makeText(PlacesActivity.this, retryCurrentLocationToast, Toast.LENGTH_SHORT).show();
-                }
-
-            } catch (ApiException apiE) {
-                switch (apiE.getStatusCode()) {
-                    case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
-                        //Упали мени који пита корисника да ли апликација сме да упали GPS локацију уређаја
-                        try {
-                            ResolvableApiException resolvableApiException = (ResolvableApiException) apiE;
-                            resolvableApiException.startResolutionForResult(PlacesActivity.this, gpsRequestCode);
-                        } catch (IntentSender.SendIntentException e) {
-                            e.printStackTrace();
-                        }
-                        break;
-                    case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
-                        System.out.println("[MRMI]: SETTINGS_CHANGE_UNAVAILABLE");
-                        break;
-                }
-            }
-        });
-    }
-
-    //Обрађује одлуке корисника при дијалогу за коришћење GPS лоакције уређаја
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == gpsRequestCode) {
-            //Ако је корисник одбио коришћење GPS локације обавести га о неопходности коришћења њих за додавање тренутне локације
-            if (resultCode != Activity.RESULT_OK) {
-                Toast.makeText(this, gpsToast, Toast.LENGTH_LONG).show();
-            } else {
-                //Ако је пристао мораће да сачека пар секунди да се GPS повеже са уређајем и да поново стисне дугме за додавање тренутне локације
-                System.out.println("[MRMI]: Упаљена GPS локациај уређаја");
-            }
-        }
     }
 
     //Прикаже прозор за унос локације

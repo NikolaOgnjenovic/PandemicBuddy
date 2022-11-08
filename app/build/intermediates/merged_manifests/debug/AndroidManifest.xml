@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.app.pandemicbuddy"
-    android:versionCode="17"
-    android:versionName="1.17" >
+    android:versionCode="18"
+    android:versionName="1.18" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -39,7 +39,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -62,8 +61,8 @@
         <receiver
             android:name="com.app.pandemicbuddy.NotificationBroadcast"
             android:enabled="true"
-            android:exported="true" >
-        </receiver>
+            android:exported="true"
+            android:permission="TODO" />
 
         <service
             android:name="com.app.pandemicbuddy.location.service.Tracker"

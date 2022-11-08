@@ -1,14 +1,13 @@
 package com.app.pandemicbuddy;
 
+import android.Manifest;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.pandemicbuddy.location.service.ServiceHandler;
@@ -25,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     private SharedPreferences sharedPreferences; //Референца SharedPreferences-a: лаког начина чувања простих података
 
+    private final String[] locationRequests = new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION};
+    private PermissionHandler permissionHandler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //Учитај језик активитија
@@ -34,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //Код за захтевање дозволе коришћења локације уређаја
+        int locationRequestCode = 500;
+        permissionHandler = new PermissionHandler(MainActivity.this, locationRequests, locationRequestCode, getString(R.string.currentLocationUsageText));
 
         sharedPreferences = getSharedPreferences("SharedPreferences", MODE_PRIVATE);
 
@@ -50,10 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Упали активити са мапом сачуваних локација
         mapsButton = findViewById(R.id.mapsButton);
-        mapsButton.setOnClickListener(v -> {
-            Intent placesIntent = new Intent(MainActivity.this, PlacesActivity.class);
-            startActivity(placesIntent);
-        });
+        mapsButton.setOnClickListener(v -> permissionHandler.handlePermissions());
 
         //Упали активити са подешавањима
         settingsButton = findViewById(R.id.settingsButton);
@@ -65,18 +68,6 @@ public class MainActivity extends AppCompatActivity {
             InfoPopup infoPopup = new InfoPopup(MainActivity.this);
             infoPopup.showRulebookDialog();
         });
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if(grantResults[0] == PackageManager.PERMISSION_GRANTED &&
-                grantResults[1] == PackageManager.PERMISSION_GRANTED){
-            if(sharedPreferences.getBoolean("firstRun",true)){
-                ServiceHandler.startTrackingService(MainActivity.this);
-                sharedPreferences.edit().putBoolean("firstRun",false).apply();
-            }
-        }
     }
 
     @Override

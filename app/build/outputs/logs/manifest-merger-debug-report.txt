@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mrmi/.gradle/caches/transforms-3/bd4fbdc78a7c4fe385a0f94d67cfb1d2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/mrmi/.gradle/caches/transforms-3/ef5460a38d188d8fe3b3011ceeafaf1a/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/mrmi/.gradle/caches/transforms-3/e6ac26bc31b0525876c1ee0daa4b42b9/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.android.gms:play-services-location:21.0.0] /home/mrmi/.gradle/caches/transforms-3/25631778603d92f5631d775b0f918623/transformed/jetified-play-services-location-21.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mrmi/.gradle/caches/transforms-3/29b29b5dcaeb91eb31c56dceacee4d76/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.work:work-runtime-ktx:2.7.1] /home/mrmi/.gradle/caches/transforms-3/73b7fae83ba6d346f305e56d19ddf5b2/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-rxjava2:2.7.1] /home/mrmi/.gradle/caches/transforms-3/4baaaa1e2cc0e44643ba2f7ed8bff716/transformed/work-rxjava2-2.7.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-gcm:2.7.1] /home/mrmi/.gradle/caches/transforms-3/5b1dab805bc9dd0c8e4f9210f9932092/transformed/jetified-work-gcm-2.7.1/AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.work:work-runtime:2.7.1] /home/mrmi/.gradle/caches/transforms-3/936d6921bfbae15f709fe6422f491c65/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle/caches/transforms-3/c2ca2497454985862988e7bfbd7624f6/transformed/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b79d75e6f3f653119df7f1780d015621/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mrmi/.gradle/caches/transforms-3/d54a81e3dd8be07fd5819889c8d0e6dd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/mrmi/.gradle/caches/transforms-3/6f95f174361f891f57cf6d5f6563fefa/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mrmi/.gradle/caches/transforms-3/fccc8d15030e9ddc4f04a1191f2ed191/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/mrmi/.gradle/caches/transforms-3/5fed0b232906c83cf5a2dd4ab6235adb/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
@@ -53,43 +53,47 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mrmi/.gradle/caches
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mrmi/.gradle/caches/transforms-3/a06b537ddc24e03387fd8b51c47c2f94/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/mrmi/.gradle/caches/transforms-3/6152cb50a4ed726001f0cf54b60d51b7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mrmi/.gradle/caches/transforms-3/e8d3c1379228a0b0856a244768915085/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
 		INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:1-54:12
 		INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:4:5-79
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:5:5-116
+	tools:remove
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:5:77-113
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:4:22-76
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:5:5-81
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:6:5-85
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:7:5-85
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:6:22-82
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:7:22-82
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:7:5-77
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:8:5-77
 MERGED from [androidx.work:work-runtime:2.7.1] /home/mrmi/.gradle/caches/transforms-3/936d6921bfbae15f709fe6422f491c65/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
 MERGED from [androidx.work:work-runtime:2.7.1] /home/mrmi/.gradle/caches/transforms-3/936d6921bfbae15f709fe6422f491c65/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:7:22-74
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:8:22-74
 uses-permission#android.permission.INTERNET
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:8:5-67
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle/caches/transforms-3/c2ca2497454985862988e7bfbd7624f6/transformed/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:24:5-67
@@ -97,15 +101,15 @@ MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:11:5-50:19
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:12:5-52:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mrmi/.gradle/caches/transforms-3/bd4fbdc78a7c4fe385a0f94d67cfb1d2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mrmi/.gradle/caches/transforms-3/bd4fbdc78a7c4fe385a0f94d67cfb1d2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-location:21.0.0] /home/mrmi/.gradle/caches/transforms-3/25631778603d92f5631d775b0f918623/transformed/jetified-play-services-location-21.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:21.0.0] /home/mrmi/.gradle/caches/transforms-3/25631778603d92f5631d775b0f918623/transformed/jetified-play-services-location-21.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mrmi/.gradle/caches/transforms-3/29b29b5dcaeb91eb31c56dceacee4d76/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mrmi/.gradle/caches/transforms-3/29b29b5dcaeb91eb31c56dceacee4d76/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
 MERGED from [androidx.work:work-gcm:2.7.1] /home/mrmi/.gradle/caches/transforms-3/5b1dab805bc9dd0c8e4f9210f9932092/transformed/jetified-work-gcm-2.7.1/AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.work:work-gcm:2.7.1] /home/mrmi/.gradle/caches/transforms-3/5b1dab805bc9dd0c8e4f9210f9932092/transformed/jetified-work-gcm-2.7.1/AndroidManifest.xml:25:5-36:19
 MERGED from [androidx.work:work-runtime:2.7.1] /home/mrmi/.gradle/caches/transforms-3/936d6921bfbae15f709fe6422f491c65/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
@@ -114,10 +118,10 @@ MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle/caches/transforms-3/c2ca2497454985862988e7bfbd7624f6/transformed/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b79d75e6f3f653119df7f1780d015621/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b79d75e6f3f653119df7f1780d015621/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mrmi/.gradle/caches/transforms-3/d54a81e3dd8be07fd5819889c8d0e6dd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mrmi/.gradle/caches/transforms-3/d54a81e3dd8be07fd5819889c8d0e6dd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/mrmi/.gradle/caches/transforms-3/6f95f174361f891f57cf6d5f6563fefa/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/mrmi/.gradle/caches/transforms-3/6f95f174361f891f57cf6d5f6563fefa/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mrmi/.gradle/caches/transforms-3/fccc8d15030e9ddc4f04a1191f2ed191/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
@@ -137,67 +141,69 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/mrmi/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /home/mrmi/.gradle/caches/transforms-3/817b2fb9475b60d41f673b4294c05843/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:15:9-54
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:18:9-40
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:19:9-21:52
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:20:9-22:52
 	android:value
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:21:13-49
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:22:13-49
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:20:13-58
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:21:13-58
 activity#com.app.pandemicbuddy.Settings
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:23:9-46
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:24:9-46
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:23:19-43
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:24:19-43
 activity#com.app.pandemicbuddy.PlacesActivity
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:25:9-27:61
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:26:9-28:61
 	android:label
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:27:13-58
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:28:13-58
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:26:13-43
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:27:13-43
 activity#com.app.pandemicbuddy.MainActivity
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:29:9-36:20
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:30:9-38:20
 	android:exported
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:29:19-47
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:31:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:31:13-35:29
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:32:17-69
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:34:17-77
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:36:27-74
 receiver#com.app.pandemicbuddy.NotificationBroadcast
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:38:9-42:20
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:40:9-44:41
 	android:enabled
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:40:13-35
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:41:13-36
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:44:13-38
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:39:13-50
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:41:13-50
 service#com.app.pandemicbuddy.location.service.Tracker
-ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:44:9-48:56
+ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:46:9-50:56
 	android:enabled
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:46:13-35
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:48:13-35
 	android:exported
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:47:13-37
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:49:13-37
 	android:foregroundServiceType
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:48:13-53
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:50:13-53
 	android:name
-		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:45:13-53
+		ADDED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml:47:13-53
 uses-sdk
 INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/mrmi/Programiranje/Android Studio Projects/Coro-No/app/src/main/AndroidManifest.xml
@@ -210,8 +216,8 @@ MERGED from [androidx.appcompat:appcompat:1.5.1] /home/mrmi/.gradle/caches/trans
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/mrmi/.gradle/caches/transforms-3/e6ac26bc31b0525876c1ee0daa4b42b9/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mrmi/.gradle/caches/transforms-3/7ded30f213d9dabc9cd1a83dd7d00c82/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:21.0.0] /home/mrmi/.gradle/caches/transforms-3/25631778603d92f5631d775b0f918623/transformed/jetified-play-services-location-21.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:21.0.0] /home/mrmi/.gradle/caches/transforms-3/25631778603d92f5631d775b0f918623/transformed/jetified-play-services-location-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mrmi/.gradle/caches/transforms-3/29b29b5dcaeb91eb31c56dceacee4d76/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mrmi/.gradle/caches/transforms-3/29b29b5dcaeb91eb31c56dceacee4d76/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.7.1] /home/mrmi/.gradle/caches/transforms-3/73b7fae83ba6d346f305e56d19ddf5b2/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.work:work-runtime-ktx:2.7.1] /home/mrmi/.gradle/caches/transforms-3/73b7fae83ba6d346f305e56d19ddf5b2/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.work:work-rxjava2:2.7.1] /home/mrmi/.gradle/caches/transforms-3/4baaaa1e2cc0e44643ba2f7ed8bff716/transformed/work-rxjava2-2.7.1/AndroidManifest.xml:20:5-22:41
@@ -224,10 +230,10 @@ MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle
 MERGED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle/caches/transforms-3/c2ca2497454985862988e7bfbd7624f6/transformed/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle/caches/transforms-3/98c67836ca8ddd22b12f2726785d2774/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b79d75e6f3f653119df7f1780d015621/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b79d75e6f3f653119df7f1780d015621/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mrmi/.gradle/caches/transforms-3/d54a81e3dd8be07fd5819889c8d0e6dd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mrmi/.gradle/caches/transforms-3/d54a81e3dd8be07fd5819889c8d0e6dd/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/mrmi/.gradle/caches/transforms-3/6f95f174361f891f57cf6d5f6563fefa/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/mrmi/.gradle/caches/transforms-3/6f95f174361f891f57cf6d5f6563fefa/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mrmi/.gradle/caches/transforms-3/fccc8d15030e9ddc4f04a1191f2ed191/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
@@ -587,13 +593,13 @@ MERGED from [com.google.android.gms:play-services-iid:17.0.0] /home/mrmi/.gradle
 	android:name
 		ADDED from [com.google.android.gms:play-services-gcm:17.0.0] /home/mrmi/.gradle/caches/transforms-3/c2ca2497454985862988e7bfbd7624f6/transformed/jetified-play-services-gcm-17.0.0/AndroidManifest.xml:23:22-79
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mrmi/.gradle/caches/transforms-3/b8a443fbf55c841345f953d5bde1c5e6/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mrmi/.gradle/caches/transforms-3/6915a1dc0952872457e212944de96d78/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/mrmi/.gradle/caches/transforms-3/fccc8d15030e9ddc4f04a1191f2ed191/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 	android:value

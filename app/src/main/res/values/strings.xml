@@ -2,14 +2,9 @@
 <resources>
     <string name="app_name" translatable="false">Pandemic buddy</string>
     <string name="title_activity_places" translatable="false">Map</string>
-    <string name="notifyUser">Notify user</string>
-    <string name="dailyTip">Daily tip</string>
-    <string name="save">Save</string>
-    <string name="getLocation">Get location</string>
     <string name="openPlaces">Open maps</string>
     <string name="settings">Settings</string>
     <string name="addMarker">Add marker</string>
-    <string name="check">Check</string>
     <string name="english" translatable="false">English</string>
     <string name="serbianLatin" translatable="false">Latinica</string>
     <string name="serbianCyrillic" translatable="false">Ћирилица</string>
@@ -17,7 +12,6 @@
     <string name="no">No</string>
     <string name="backToMenu">Are you sure you want to go back to the main menu?</string>
     <string name="quitApp">Are you sure you want to quit the app?</string>
-    <string name="cancel">Cancel</string>
     <string name="markerName">How do you want to call your current location?</string>
     <string name="info">Info</string>
     <string name="homeLocation">Is this your home location?</string>
@@ -29,9 +23,7 @@
     <string name="sendDailyNotifications">Send daily notifications with suggestions and tips</string>
     <string name="serviceNotificationText">Caring about your health…</string>
     <string name="noLocationNameToast">Input the name of the location!</string>
-    <string name="deniedLocationPermissionsToast">Denied location permissions</string>
     <string name="retryCurrentLocationToast">Current location not found, try again</string>
-    <string name="gpsToast">GPS location is required for adding a new location</string>
     <string name="locationDeletedToast">Location deleted</string>
     <string name="help">Help</string>
     <string name="addMarkerHelp">Add your home/frequent locations.</string>
@@ -39,7 +31,8 @@
     <string name="generalHelp">Delete a location by holding the name of a location marker.\n\nYou can toggle location tracking and particular notifications in the settings.</string>
     <string name="renameLocationToast">Input a unique location name</string>
     <string name="locationUsage">Location usage</string>
-    <string name="locationUsageText">Pandemic Buddy collects location data to enable location tracking so that the user can receive adequate notifications even when the app is closed or not in use.\n\nThis setting can be toggled off in by toggling the "Track the device\'s location" off.\n\nThe current location of the device is compared to locations the user has manually saved and the app sends you notifications depending on what location the device is closest to.\n\nNo data is being sent to the developers or any third party.</string>
+    <string name="backgroundLocationUsageText">Pandemic Buddy collects location data to enable location tracking so that the user can receive adequate notifications even when the app is closed or not in use.\n\nThis setting can be toggled off in by toggling the "Track the device\'s location" off.\n\nThe current location of the device is compared to locations the user has manually saved and the app sends you notifications depending on what location the device is closest to.\n\nNo data is being sent to the developers or any third party.</string>
     <string name="accept">Accept</string>
     <string name="decline">Decline</string>
+    <string name="currentLocationUsageText">Pandemic Buddy collects location data to enable current location saving and zooming in.\n\nNo data is being sent to the developers or any third party.</string>
 </resources>

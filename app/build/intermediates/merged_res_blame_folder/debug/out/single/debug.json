@@ -1,258 +1,234 @@
 [
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_serbian_flag.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/serbian_flag.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_rulebook_v3.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/rulebook_v3.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_main_background_v3.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/main_background_v3.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_checkmark.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/checkmark.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_put_on_mask.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/put_on_mask.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_add_location_popup.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/add_location_popup.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_mask_notification_disabled.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/mask_notification_disabled.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_app_small_icon.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/app_small_icon.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_location_usage_popup.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/location_usage_popup.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_serbian_flag.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/serbian_flag.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_home_location.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/home_location.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_rulebook_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/rulebook_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_open_maps_v2.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/open_maps_v2.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_put_on_mask.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/put_on_mask.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_settings_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/settings_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_add_location_popup.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/add_location_popup.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_open_maps_v2.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/open_maps_v2.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_activity_places.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/activity_places.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_activity_main.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/activity_main.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_hands.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/disinfect_hands.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_settings_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/settings_background.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_help_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/help_icon.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_main_background_v4.png.flat",
         "source": "com.app.pandemicbuddy.app-main-32:/drawable/main_background_v4.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_hands_small_icon.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/disinfect_hands_small_icon.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_uk_flag.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/uk_flag.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_uk_flag.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/uk_flag.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-mdpi/ic_launcher_background.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_activity_places.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/activity_places.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-hdpi/ic_launcher_background.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_border.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/border.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_checkmark.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/checkmark.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_app_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/app_icon.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_hands_notification_disabled.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/hands_notification_disabled.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_rulebook_info_popup.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/rulebook_info_popup.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_help_icon.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/help_icon.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_notification_layout.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/notification_layout.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_settings_v2.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/settings_v2.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_clothes.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/disinfect_clothes.png"
+    },
+    {
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_rulebook_v3.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/rulebook_v3.png"
+    },
+    {
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_mask_small_icon.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/mask_small_icon.png"
     },
     {
         "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_activity_main.xml.flat",
         "source": "com.app.pandemicbuddy.app-main-32:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_small_icon.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/disinfect_small_icon.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_app_small_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/app_small_icon.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_tracker_large_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/tracker_large_icon.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_help_popup.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/help_popup.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_hands.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/disinfect_hands.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_get_current_location.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/get_current_location.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_border.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/border.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_cross.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/cross.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_notification_layout.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/notification_layout.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_back_alert_dialog.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/back_alert_dialog.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_get_current_location.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/get_current_location.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_clothes_notification_disabled.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/clothes_notification_disabled.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_tracker_large_icon.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/tracker_large_icon.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_mask_notification_disabled.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/mask_notification_disabled.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_settings_v2.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/settings_v2.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_mask_small_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/mask_small_icon.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_help_popup.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/help_popup.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_activity_settings.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/activity_settings.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_clothes_notification_disabled.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/clothes_notification_disabled.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_small_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/disinfect_small_icon.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_cross.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/cross.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/layout_rulebook_info_popup.xml.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/layout/rulebook_info_popup.xml"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_help_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/help_background.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_rulebook_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/rulebook_background.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable_add_location_v2.png.flat",
+        "source": "com.app.pandemicbuddy.app-main-32:/drawable/add_location_v2.png"
     },
     {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-xhdpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_add_location_v2.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/add_location_v2.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_hands_small_icon.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/disinfect_hands_small_icon.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_activity_settings.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/activity_settings.xml"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_hands_notification_disabled.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/hands_notification_disabled.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/layout_back_alert_dialog.xml.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/layout/back_alert_dialog.xml"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_disinfect_clothes.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/disinfect_clothes.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable_help_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-main-32:/drawable/help_background.png"
-    },
-    {
-        "merged": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-merged_res-30:/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/mrmi/.gradle/daemon/7.4/com.app.pandemicbuddy.app-pngs-25:/drawable-ldpi/ic_launcher_background.png"
+        "merged": "com.app.pandemicbuddy.app-merged_res-30:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.app.pandemicbuddy.app-pngs-25:/drawable-hdpi/ic_launcher_background.png"
     }
 ]

@@ -2,18 +2,14 @@ package com.app.pandemicbuddy;
 
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ToggleButton;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
 import com.app.pandemicbuddy.location.service.ServiceHandler;
 
@@ -26,7 +22,6 @@ public class Settings extends AppCompatActivity {
     private SharedPreferences.Editor sharedPreferencesEditor;
     private SwitchCompat trackerSwitch; //Контролише праћење локације и слања нотифиакција
     private SwitchCompat dailyNotificationsSwitch; //Контролише слање дневних нотификација са саветима
-    private final int REQUEST_PERMISSION_LOCATION = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,8 +91,8 @@ public class Settings extends AppCompatActivity {
         //Покрени/заустави сервис за праћење локације и слање нотификација везаних за локацију
         trackerSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
-                enableLocationTracking(ServiceHandler.getPermissions(), REQUEST_PERMISSION_LOCATION);
-                //ServiceHandler.startTrackingService(Settings.this);
+                PermissionHandler permissionHandler = new PermissionHandler(Settings.this, ServiceHandler.getPermissions(), 1, getString(R.string.backgroundLocationUsageText));
+                permissionHandler.handlePermissions();
             } else {
                 ServiceHandler.stopTrackingService(Settings.this);
             }
@@ -114,49 +109,10 @@ public class Settings extends AppCompatActivity {
         });
     }
 
-    //IZ KNJIGE
-    private void enableLocationTracking(String[] permissions, int permissionRequestCode) {
-        if (!checkPermissions(permissions)) {
-            showLocationExplanation(getString(R.string.locationUsage), getString(R.string.locationUsageText), permissions, permissionRequestCode);
-        } else {
-            System.out.println("Permissions already granted!");
-            ServiceHandler.startTrackingService(Settings.this);
-        }
-    }
-
-    //Returns false if >0 of the permissions in a list is denied
-    private boolean checkPermissions(String[] permissions) {
-        for (String permission : permissions) {
-            if (ContextCompat.checkSelfPermission(this, permission) == PackageManager.PERMISSION_DENIED) {
-                System.out.println("Permission " + permission + " denied.");
-                return false;
-            }
-        }
-        return true;
-    }
-
-    //Shows a dialog which tells the user why the app needs the permissions
-    private void showLocationExplanation(String title, String message, final String[] permissions, final int permissionRequestCode) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(title)
-                .setMessage(message)
-                .setPositiveButton(getString(R.string.accept), (dialogInterface, i) -> {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                        requestMultiplePermissions(permissions, permissionRequestCode);
-                    }
-                })
-                .setNegativeButton(getString(R.string.decline), ((dialogInterface, i) -> trackerSwitch.setChecked(false)));
-        builder.create().show();
-    }
-
-    //Requests an array of permissions
-    private void requestMultiplePermissions(String[] permissions, int permissionRequestCode) {
-        ActivityCompat.requestPermissions(this, permissions, permissionRequestCode);
-    }
-
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        int REQUEST_PERMISSION_LOCATION = 1;
         if (requestCode == REQUEST_PERMISSION_LOCATION) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 ServiceHandler.startTrackingService(Settings.this);
@@ -169,7 +125,6 @@ public class Settings extends AppCompatActivity {
     //Учита сачувана стања дугмића за нотификације сачувана у уређају и промени стања дугмића, као и прекидача за сервис за праћење
     private void loadButtonStates() {
         SharedPreferences sharedPreferences = getSharedPreferences("SharedPreferences", MODE_PRIVATE);
-
         notificationOne.setChecked(sharedPreferences.getBoolean("notificationOne", true));
         notificationTwo.setChecked(sharedPreferences.getBoolean("notificationTwo", true));
         notificationThree.setChecked(sharedPreferences.getBoolean("notificationThree", true));

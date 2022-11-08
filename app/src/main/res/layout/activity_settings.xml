@@ -9,7 +9,6 @@
     tools:context=".Settings">
 
     <TextView
-        android:id="@+id/settingsTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/settings"
@@ -17,7 +16,6 @@
         android:textSize="28sp" />
 
     <TextView
-        android:id="@+id/setLanguage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="40sp"
@@ -70,7 +68,6 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/setNotifications"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="15sp"

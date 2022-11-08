@@ -35,31 +35,6 @@ public class InfoPopup extends Dialog {
         dialog.show();
     }
 
-    /*public void showLocationDialog(Activity activity, SwitchCompat trackerSwitch) {
-        final Dialog dialog = new Dialog(context);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        dialog.setCancelable(false);
-        dialog.setContentView(R.layout.location_usage_popup);
-
-        TextView rulebookText = dialog.findViewById(R.id.locationUsageText);
-        rulebookText.setMovementMethod(new ScrollingMovementMethod());
-
-        Button acceptButton = dialog.findViewById(R.id.acceptButton);
-        Button declineButton = dialog.findViewById(R.id.declineButton);
-        declineButton.setOnClickListener(v -> {
-            dialog.dismiss();
-            System.out.println("Permissions denied");
-            trackerSwitch.setChecked(false);
-        });
-        acceptButton.setOnClickListener(v -> {
-                    dialog.dismiss();
-                    ActivityCompat.requestPermissions(activity, ServiceHandler.getPermissions(), 100);
-                }
-        );
-
-        dialog.show();
-    }*/
-
     public void showHelpDialog() {
         final Dialog dialog = new Dialog(context);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
